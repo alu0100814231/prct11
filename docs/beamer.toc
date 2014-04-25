@@ -1,4 +1,7 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Primera secci\IeC {\'o}n}{4}{0}{1}
-\beamer@sectionintoc {2}{Segunda secci\IeC {\'o}n}{6}{0}{2}
+\beamer@sectionintoc {2}{Segunda secci\IeC {\'o}n}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Antiguo egipto}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mesopotamia}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{Antiguedad cl\IeC {\'a}sica}{13}{0}{2}
