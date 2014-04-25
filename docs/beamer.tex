@@ -1,0 +1,111 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} %para añadir imagen
+
+\title[Presentacion con Beamer]{Número $\pi$} %No lo ponemos dentro del begin porque ya están predefinidos
+\author[Técnicas experimentales]{Bianca E. Kennedy Giménez}
+\date[25/04/14]{25 de abril de 2014}
+
+\usetheme{Madrid}
+\begin{document}
+
+\begin{frame} %creamos una página solo para el título
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents[pausesections] %con este comando hacemos que ponga en esta transparencia todas las secciones  [opcion para que aparezcan con pausa en casa clic]
+\end{frame}
+
+\section{Primera sección} %Abrimos una sección
+
+
+\begin{frame}
+\frametitle{Introducción} %No es posible sin abrir una sección
+$\pi$ es la relación entre la longitud de la circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. El valor númerico de $\pi$, tuncando a sus primeras cifras, es el siguiente:
+
+\begin{displaymath} %Se utiliza para ecuaciones y no hacer falta poner simbolo de dolar
+    \pi \approx 3,14159265358979323846. 
+\end{displaymath}
+\end{frame}
+
+
+
+\section{Segunda sección}
+
+\begin{frame}
+\frametitle{Historia}
+Vamos a hacer un ejemplo:
+\begin{itemize}
+\item Antiguo egipto\pause
+\item Mesopotamia\pause
+\item Antiguedad clásica\pause
+\item Matemática china\pause
+\item Matemática india\pause
+\footnote{Hay muchas más}
+\end{itemize}
+\end{frame}
+
+\subsection{Antiguo egipto}
+\begin{frame}
+\begin{itemize}
+\frametitle{Historia.Antiguo egipto.}
+ \item El valor aproximado de $\pi$ en las antiguas culturas se remonta a la época del escriba egipcio Ahmes en el año 1800 a.C., decrito en el papiro Rindh, donde se emplea un valor de $\pi$ afirmando que el área de un cículo es similar a la de un cuadrado cuyo lado es igual al diámetro del círculo disminuido en $\frac{1}{9}$, es decir, igual a $\frac{8}{9}$ del diámetro. En notación moderna: 
+ \[S = \pi r^2 \simeq \left ( \frac{8}{9} \cdot d \right )^2 = \frac{64}{81} d^2 = \frac{64}{81} \left(4 r^2\right)\] 
+\end{itemize}
+\end{frame}
+
+\subsection{Mesopotamia}
+\begin{frame}
+\begin{itemize}
+\frametitle{Historia.Mesopotamia.}
+ \item Algunos matemáticos mesopotámicos empleaban, en el cálculo de segmentos, valores de $\pi$ igual a 3, alcanzando en algunos casos valores más aproximados, como el de:
+ \[ \pi \approx 3 + \frac{1}{8} = 3,125 \] 
+\end{itemize}
+\end{frame}
+
+\subsection{Antiguedad clásica}
+\begin{frame}
+\begin{itemize}
+\frametitle{Historia.antiguedad clásica.}
+ \item El matemático griego Arquímedes(siglo III, a.C.) fue capaz de determinar el valor de $\pi$ entre el intervalo comprendido por $\frac{3 10}{71}$, como valor mínimo, y $\frac{3 1}{7}$, como valor máximo. Con esta aproximación de Arquímedes se obtiene un valor con un error que oscila entre 0,024$\%$ y 0,040$\%$ sobre el valor real. El método usado por Arquímedes era muy simple y consistía en circunscribir e inscribir polígonos regulares de n-lados en circunferencias y calcular el perímetro de dichos polígonos. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+
+Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula $\pi$ como el valor fraccionario $\frac{25}{8}$ midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+
+En el siglo II,Claudio Ptolomeo proporciona un valor fraccionario por aproximaciones:
+\[ \pi \simeq \frac{377}{120} = 3{,}1416 \]  
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\frametitle{Historia.Matemática china.}
+ \item El cálculo de $\pi$ fue una atracción para los matemáticos expertos de todas las culturas. Hacia 120, el astrónomo chino Zhang Heng fue uno de los primeros en usar la aproximación $\sqrt {10}$, que dedujo de la razón entre el volumen de un cubo y la respectiva esfera inscrita.
+    \[ \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1} = 1 - \frac{1}{3} + \frac{1}{5} - \dots = \frac{\pi}{4} \] 
+ 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\frametitle{Historia.Matemática india.}
+ \item Usando un polígono regular inscrito de 384 lados, a finales del siglo V el matemático indio Aryabhata estimó el valor en 3,1416. A mediados del siglo VII, estimando incorrecta la aproximación de Aryabhata, Brahmagupta calcula $\pi$ como $\sqrt {10}$, cálculo mucho menos preciso que el de su predecesor.
+
+  \[  \pi = \sum_{k=0}^\infty \frac{2(-1)^k\; 3^{\frac{1}{2} - k}}{2k+1} \]
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertemplatebookbibitems
+\bibitem[Guía Docente,2013]{guia}
+Guía docente (año 2013)
+{\small $http://gjtsrh.com$}
+\end{thebibliography}
+\end{frame}
+
+\end{document}             
